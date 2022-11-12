@@ -1,0 +1,84 @@
+.what{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+}
+.what .whatimg{
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.do{
+    width:100%;
+    height: 80vh;
+    padding: 0 0.2rem;
+}
+.whatwedo{
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whatwedo p{
+    width: 100%;
+    padding: 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width:1040px){
+
+    .what .whatimg .do{
+        width: 100%;
+    } 
+    .what .whatwedo{
+        width: 50%;
+    }
+
+    .what .whatwedo .whatcontent p{
+        width: 100%;
+        padding: 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+
+    }
+    
+}
+
+@media screen and (max-width:640px){
+
+    .what{
+        display: flex;
+        flex-direction: column;
+    }
+    .what .whatimg .do{
+        width: 100%;
+    } 
+    .what .whatimg {
+        width:100%
+    }
+    .what .whatwedo{
+        width: 100%;
+    }
+    .what .whatwedo .whatcontent p{
+        width: 100%;
+        padding: 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+    }
+    
+}

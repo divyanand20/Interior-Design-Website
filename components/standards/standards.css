@@ -1,0 +1,35 @@
+.standards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(75, 93, 81);
+}
+
+.standards .standardsd{
+    width: 50%;
+}
+
+.standards .standardsd h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.standards .standardsd p{
+    padding: 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:1040px) {
+
+    .standards .standardsd{
+        width: 100%;
+    }
+    
+}
+

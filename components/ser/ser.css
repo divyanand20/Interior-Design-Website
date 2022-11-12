@@ -1,0 +1,257 @@
+.ser{
+    width: 100%;
+}
+.ser-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.ser-intro h1{
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+.ser-intro p{
+
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+.intdesign{
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
+}
+.design-img{
+    width: 50%;
+    
+}
+.intdesigncont{
+    width: 50%;
+    padding-top: 6rem;
+}
+.intdesigncont p{
+    color: black;
+    padding: 0 2rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.intdesigncont h1{
+    color: black;
+    font-weight: 300;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.resim{
+    width: 100%;
+    padding: 2rem 0 0 2rem;
+}
+.reimg, .comimg, .eduimg{
+    width: 100%;
+    padding: 0.5rem;
+}
+.re-con, .com-con,.edu-con{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.comm{
+    display: flex;
+    width: 100%;
+}
+
+.intlight{
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.lightcont p{
+    color: black;
+    padding: 0 2rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.lightcont h1{
+    color: black;
+    font-weight: 300;
+    padding: 0 0 2rem 2rem;
+}
+.ligim{
+    width: 100%;
+}
+.lightcont{
+    width: 50%;
+    padding-top: 6rem;
+}
+.light-img{
+    width: 50%;
+}
+
+.intland{
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.landcont p{
+    color: black;
+    padding: 0 2rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.landcont h1{
+    color: black;
+    font-weight: 300;
+    padding: 0 0 2rem 2rem;
+}
+.lanim{
+    width: 100%;
+}
+.landcont{
+    width: 50%;
+    padding-top: 6rem;
+}
+.land-img{
+    width: 50%;
+}
+
+
+.intreno{
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.renocont p{
+    color: black;
+    padding: 0 2rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.renocont h1{
+    color: black;
+    font-weight: 300;
+    padding: 0 0 2rem 2rem;
+}
+.renim{
+    width: 100%;
+}
+.renocont{
+    width: 50%;
+    padding-top: 6rem;
+}
+.reno-img{
+    width: 50%;
+}
+
+
+.other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(75, 93, 81);
+}
+
+.other .other-ser{
+    width: 50%;
+}
+
+.other .other-ser h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.other .other-ser p{
+    padding: 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.services-list{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+@media screen and (max-width:1040px) {
+
+    .comm{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intdesign{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .design-img{
+        width: 100%;
+        
+    }
+    .intdesigncont{
+        width: 100%;
+
+    }
+    .intdesigncont p{
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .intdesigncont h1{
+        color: black;
+        font-weight: 300;
+    }
+    .resim{
+        width: 100%;
+    }
+
+    .intlight{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+    .lightcont p{
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .lightcont h1{
+        color: black;
+        font-weight: 300;
+ 
+    }
+    .ligim{
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .lightcont{
+        width: 100%;
+ 
+    }
+    .light-img{
+        width: 100%;
+    }
+    
+
+    .other .other-ser{
+        width: 100%;
+    }
+    
+}
+

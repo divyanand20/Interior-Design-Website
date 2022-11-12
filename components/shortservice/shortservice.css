@@ -1,0 +1,50 @@
+.shortservice h1{
+    text-align: center;
+    padding: 1rem;
+    color: black;
+    font-weight: 300;
+} 
+.shortservice p{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+} 
+.shortservice{
+    width: 100%;
+}
+.shortservice .serv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+}
+.designd,.lightd,.furnitured,.renovationd{
+    width: 100%;
+    height: 70vh;
+    padding: 1rem;
+}
+.design h2,.light h2,.furniture h2,.renovation h2{
+    padding: 0 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+@media screen and (max-width:1040px) {
+
+    .shortservice .serv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .designd,.lightd,.furnitured,.renovationd{
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+        
+    }
+    
+}

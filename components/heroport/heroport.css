@@ -1,0 +1,60 @@
+.mask1{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask1::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.heroport{
+    height: 60vh;
+    width: 100%;
+}
+
+.heroport .content1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:35%;
+    left: 50%;
+    text-align: center;
+}
+
+.heroport .content1 h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.heroport .content1 p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:640px) {
+    .heroport .content1 .h1{
+        font-size: 3rem;
+      
+    }
+
+    .heroport .content1 .p{
+        font-size: 1.4rem;
+      
+    }
+    
+}

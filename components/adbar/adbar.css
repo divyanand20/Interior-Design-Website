@@ -1,0 +1,38 @@
+.adbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:#596356;
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    height: 40px;
+    z-index: 11;
+}
+.leftsocial{
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+}
+.booknow{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactnum{
+    color: white;
+    padding: 0 2rem;
+}
+
+@media screen and (max-width:1040px){
+    .adbar{
+        font-size: 12px;
+    }
+    .leftsocial .FaFacebook{
+            font-size: 10px;
+    }
+}

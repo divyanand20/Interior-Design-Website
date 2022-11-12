@@ -1,0 +1,80 @@
+.write {
+    padding-top: 50px;
+    background-color: rgb(186, 190, 163);
+  }
+  
+  .writeImg {
+    margin-left: 220px;
+    margin-right: 220px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    justify-content: center;
+  }
+  
+  .writeForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+ 
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 50vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30vh;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+  }
+  .shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+  

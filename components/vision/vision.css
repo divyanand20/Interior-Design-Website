@@ -1,0 +1,35 @@
+.vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(75, 93, 81);
+}
+
+.vision .visiond{
+    width: 50%;
+}
+
+.vision .visiond h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.vision .visiond p{
+    padding: 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:1040px) {
+
+    .vision .visiond{
+        width: 100%;
+    }
+    
+}
+

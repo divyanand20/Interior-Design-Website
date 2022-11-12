@@ -1,0 +1,87 @@
+.collaborate{
+    width: 100%;
+    display: flex;
+}
+.collaborate .colimg{
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.co{
+    width:100%;
+    height: 80vh;
+    padding: 0 0.2rem;
+}
+.collaborate1{
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collaborate1 h2{
+    text-transform: uppercase;
+}
+.collaborate1 p{
+    width: 100%;
+    padding: 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width:1040px){
+
+    .collaborate .colimg .co{
+        width: 100%;
+    } 
+    .collaborate .collaborate1{
+        width: 50%;
+    }
+
+    .collaborate .collaborate1 .collaboratecontent p{
+        width: 100%;
+        padding: 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+
+    }
+    
+}
+
+@media screen and (max-width:640px){
+
+    .collaborate{
+        display: flex;
+        flex-direction: column;
+    }
+    .collaborate .colimg .co{
+        width: 100%;
+    } 
+    .collaborate .colimg {
+        width:100%
+    }
+    .collaborate .collaborate1{
+        width: 100%;
+    }
+    .collaborate .collaborate1 .collaboratecontent p{
+        width: 100%;
+        padding: 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+    }
+    
+}

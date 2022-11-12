@@ -1,0 +1,35 @@
+.choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(75, 93, 81);
+}
+
+.choose .ingenious{
+    width: 50%;
+}
+
+.choose .ingenious h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.choose .ingenious p{
+    padding: 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:1040px) {
+
+    .choose .ingenious{
+        width: 100%;
+    }
+    
+}
+
